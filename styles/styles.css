@@ -4,8 +4,8 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-family: "Montserrat", sans-serif;
 }
-a {
-    font-size: 14px;
+a.{
+    font-size: 14px:
 }
 
 /* style header */
@@ -86,21 +86,19 @@ a {
 
 
 /* style footer */
-
-.conteneur {
-    padding: 0px 0px 0px 0px;
+.footer {
     width: 100%;
-    height: 170px;
-    background-color: #ffffff;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+    margin: 20px 0px 0px 0px;
+}
 .coordonnees {
     width: 800px;
-    height: 170px;
-    background-color: #DDEDF9;
-    border-radius: 20px 20px 20px 20px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
     text-align: center;
 }
 .contact-text {
@@ -114,8 +112,7 @@ a {
 .info {
     font-family: "Montserrat", sans-serif;
     display: inline-block;
-    width: 265px;
-    margin: 0px 0px 0px 0px ;
+    width: 250px;
     text-align: center;
     color: #000000;
     letter-spacing: 0px;
@@ -123,7 +120,7 @@ a {
 .mail {
     display: inline-block;
     width: 250px;
-    margin: 10px 10px 0px 0px ;
+    margin: 10px 0px 0px 0px ;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -140,5 +137,5 @@ a {
     color: #000000;
     text-align: center;
     font-size: 12px;
-    margin-top: 10px; /* Espace en haut */
+    margin-top: 20px; /* Espace en haut */
 }

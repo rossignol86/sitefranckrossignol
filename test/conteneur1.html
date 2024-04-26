@@ -1,36 +1,251 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Franck Rossignol</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/styles2.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https : //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div class="pictooiso"><img src="images/rossignol2.png" alt="picto rossignol"></div>
-<header>
-        <nav class="nav">
-            <div class="menu">
-                <div class="fr">Franck ROSSIGNOL</div>
-                <div class="moncv">
-                <a class="monliencv" href="images/FranckRossignol.pdf" target="_blank" download="CV Franck ROSSIGNOL.pdf">MON CV</a>
-
-                </div>
-                <div class="linkedin"> <a href="https://www.linkedin.com/in/rossignol-franck-4a755a98/" target="_blank"><img src="images/logo-linkedin2.jpg" alt="linkedin"></a> </div>
-            </div>
-        </nav>    
-</header>
+<title>Page avec conteneur</title>
+<style>
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif; 
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 24px;
+    letter-spacing: 1px;
+}
     
+    
+/* style colonnes infographiste */
+.conteneur {
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+.main {
+    width: 800px;
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.section1 {
+    width: 300px;
+    height: 650px;
+    background-color: #ffffff;
+}
+
+.competences {
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 22px;
+    text-align: center;
+}
+.experiences {
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 22px;
+    text-align: center;
+}
+.fleche1 {
+    width: 300px;
+    margin-top: -17px;
+}
+.illustwebdesign {
+    width: 300px;
+    margin-top: -17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustinfographiste {
+    width: 300px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+    
+/* style colonne reconversions */
+.section2 {
+    width: 500px;
+    height: 650px;
+    background-color: #FFFFFF;
+    padding: 0px 0px 0px 20px;
+}
+.carriere {
+    width: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: black;
+    padding: 0px 0px 20px 0px;
+
+}
+
+/* style bloc reconversion */
+.blocreconversion {
+    width: 500px;
+    height: 490px;
+    border-radius: 20px;
+} 
+
+.reconversion {
+    width: 500px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #2773BE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.developpeurweb {
+    width: 500px;
+    height: 50px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+} 
+
+.jerecherche{
+    width: 500px;
+    height: 100px;
+    color: #FC721A;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    padding: 30px 0px 20px 0px;
+
+}
+    
+.colonnestxtill{
+    width: 500px;
+    display: flex;
+}
    
+.txtreconversion{
+    width: 200px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+}
+
+.illustdeveloppeur{
+    width: 300px;
+}
+
+ 
     
+/* style bloc competences */
+.conteneurcompetences {
+    width: 100%;
+    height: 700px;
+    background-color: #FBF1EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.maincompetences {
+    width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px ;
+}
+    
+/* style section3 */   
+.section3 {
+    width: 300px;
+    height: 650px;
+}
+.fleche2 {
+    width: 300px;
+    margin-top: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.txtcompetences{
+    width: 300px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* style section4 */   
+.section4 {
+    width: 500px;
+    height: 650px;
+    padding: 0px 0px 0px 20px;
+} 
+.illustcompetence {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtcompetencesintro{
+    width: 500px;
+    color: #000000;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 20px 0px 20px;
+}
+    
+.colonnelogiciels{
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+.txtlogiciels{
+    width: 300px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+}
+.logologiciels{
+    width: 200px;
+}
+    
+    
+</style>
+</head>
+<body>
+
 <conteneur class="conteneur">
     <main class="main">
         <section class="section1">
@@ -57,7 +272,11 @@
                     <img src="images/illustrationwebdesign.png" alt="illustration compétences">
                 </div>
             </div>
-        </section>    
+        </section>
+        
+        
+        
+        
         <section class="section2">
             <div>
                 <p class="carriere">Après une carrière de plus de 35 ans<br> comme infographiste, WEBDEsigner & Freelance,<br> j'ai décidé de me lancer de nouveaux défis professionnels<br> afin de faire évoluerma carrière vers un secteur d'activité stimulant et innovant.</p>
@@ -69,7 +288,7 @@
                 </div>
                 <div class=developpeurweb>
                     <p>Développeur WEB <br>
-                    et Web mobile</p>
+                    & Web mobile</p>
                 </div>
                 <div class="jerecherche">
                     <p>Je recherche une entreprise pour septembre 2024 pour effectuer mon contrat d’alternance comme Développeur Web & Web mobile.</p>
@@ -93,6 +312,7 @@
 
     
     
+    
 <conteneur class="conteneurcompetences">
     <main class="maincompetences">
         <section class="section3">
@@ -110,18 +330,13 @@
                         <li>Budgétiser un projet,</li>
                         <li>Planifier chaque étape de production selon les délais prévus,</li>
                         <li>Proposer des projets graphiques  print et/ou web,</li>
-                        <li>Respecter les différentes étapes de la réalisation des projets,</li>
-                        <li>Informer  le client, le directeur artistique ou le chef de projet sur l'évolution de chaque projet afinde garantir leur bon déroulement,</li>
+                        <li>Respecter les différentes étapes  de la réalisation des projets,</li>
+                        <li>Informer  le client, le directeur artistique ou le chef de projet sur l'évolution de chaque projet afin de garantir leur bon déroulement,</li>
                         <li>Maîtriser les langages web de base HTML - CSS - JAVASCRIPT - PHP.</li>
                     </ul>
                 </div>
-                <div class="blocacquisition">
-                    <div class="txtacquisition">
-                    <a class="titreacquisition">En cours d’acquisition</a>
-                    <p class="txtacquisition"> Création sur FIGMA, <br>Ergonomie et UX/UI Design,<br>
-                    GitHup / HTML5 / CSS / <br>Javascript / PHP</p>
-                    </div>
-                 
+                <div class="txtreconversion">
+                    <p>En cours d’acquisition : Maquettage sur FIGMA, ergonomie et UX/UI Design, Intégration HTML5 , Intégration CSS , Intégration Javascript, PHP</p>
                 </div>
                 
             </div>
@@ -139,7 +354,7 @@
                     J’ai un niveau de formation EXPERT sur le Pack Adobe (Indesign, Illustrator, Photoshop et Dreamweaver) et QuarkXpress. Je maîtrise également la création et le codage d’emailing et/ou newsletter.</p>
                 </div>
                 <div class="colonnelogiciels">
-                    <div class="txtlogiciels">
+                    <div class="txtcompetences">
                         <h2>Logiciels</h2>
                         <ul>
                             <li>Publication Assistée par Ordinateur</li>
@@ -160,36 +375,34 @@
 </conteneur>    
     
     
-        
-
     
-<footer>
-    <conteneur class="footer">
-        <div class="coordonnees">
-            <div class="contact-text">Mes coordonnées</div>
-            <div class="info">
-                <img src="images/tel.png" alt="0662939679"><br>
-                <a>06 62 93 96 79</a>
-            </div>
 
-            <div class="info">
-                <img src="images/ville.png" alt="Vouillé"><br>
-                <a>86190 VOUILLE</a>
-            </div>
-
-            <div class="mail">
-                <img src="images/mail.png" alt="mail"><br>
-                <a class="mon-lien" href="mailto:ff.rossignol@yahoo.fr">ff.rossignol@yahoo.fr</a>
-            </div>
-        
-            <div class="infosplus">
-                <a>©rossignol - 2024</a>
-                <a>Webdesign sur FIGMA - HTML & CSS sur Visual Studio Code.</a>
-                <a>Illustrations VECTEEZY</a>
-            </div>
-        </div>
-    </conteneur>  
-    
-</footer>    
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

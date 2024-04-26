@@ -16,17 +16,17 @@ h2 {
     
 /* style colonnes infographiste */
 .conteneur {
-    padding: 20px 0px 0px 0px;
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+
+}
 .main {
     width: 800px;
-    height: 600px;
+    height: 700px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -50,16 +50,15 @@ h2 {
 .fleche1 {
     width: 300px;
     margin-top: -17px;
-
 }
-.illustexperience {
+.illustwebdesign {
     width: 300px;
     margin-top: -17px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.illustcompetence {
+.illustinfographiste {
     width: 300px;
     margin-top: -5px;
     display: flex;
@@ -89,13 +88,13 @@ h2 {
 
 /* style bloc reconversion */
 .blocreconversion {
-    width: 480px;
+    width: 500px;
     height: 490px;
     border-radius: 20px;
 } 
 
 .reconversion {
-    width: 480px;
+    width: 500px;
     height: 50px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
@@ -109,7 +108,7 @@ h2 {
 }
 
 .developpeurweb {
-    width: 480px;
+    width: 500px;
     height: 50px;
     color: #000000;
     text-align: center;
@@ -121,7 +120,7 @@ h2 {
 } 
 
 .jerecherche{
-    width: 480px;
+    width: 500px;
     height: 100px;
     color: #FC721A;
     text-align: center;
@@ -134,11 +133,10 @@ h2 {
 }
     
 .colonnestxtill{
-    width: 480px;
+    width: 500px;
     display: flex;
 }
    
-
 .txtreconversion{
     width: 200px;
     color: #000000;
@@ -150,5 +148,116 @@ h2 {
 }
 
 .illustdeveloppeur{
-    width: 280px;
+    width: 300px;
+}
+
+ 
+    
+/* style bloc competences */
+.conteneurcompetences {
+    width: 100%;
+    height: 670px;
+    background-color: #FBF1EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.maincompetences {
+    width: 800px;
+    height: 670px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px ;
+}
+    
+/* style section3 */   
+.section3 {
+    width: 300px;
+    height: 650px;
+}
+.fleche2 {
+    width: 300px;
+    margin-top: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.txtcompetences{
+    width: 300px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0px 0px 10px 0px;
+}
+.blocacquisition {
+    padding: 5px 0px 0px 0px;
+    width: 300px;
+    height: 150px;
+    background-color: #2773BE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px ;
+}
+.titreacquisition{
+    width: 300px;
+    height: 15px ;
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+.txtacquisition{
+    width: 250px;
+    height: 135px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* style section4 */   
+.section4 {
+    width: 500px;
+    height: 650px;
+    padding: 0px 0px 0px 20px;
+} 
+.illustcompetence {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtcompetencesintro{
+    width: 500px;
+    color: #000000;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0px 20px 0px 20px;
+}
+    
+.colonnelogiciels{
+    width: 500px;
+    height: 250px;
+    display: flex;
+}
+.txtlogiciels{
+    width: 300px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+.logologiciels{
+    width: 250px;
 }
