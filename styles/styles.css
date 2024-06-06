@@ -134,9 +134,14 @@ a {
     text-decoration: none;
 }
 .infosplus {
+    font-family: "Montserrat", sans-serif;
     width: 800px;
     color: #000000;
     text-align: center;
-    font-size: 12px;
-    margin-top: 20px; /* Espace en haut */
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.adresse {
+    margin-top: 10px;
 }
