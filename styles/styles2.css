@@ -2,8 +2,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Orbitron', sans-serif; 
     font-family: "Montserrat", sans-serif;
+    font-family: "Orbitron", sans-serif;
 }
 h2 {
     color: #000000;
