@@ -37,13 +37,16 @@ h2 {
 .competences {
     font-family: 'Orbitron', sans-serif; 
     font-size: 22px;
+    line-height: 30px;
     text-align: center;
+    height: 300px;
 }
 .experiences {
     font-family: 'Orbitron', sans-serif; 
     font-size: 22px;
-    line-height: 40px;
+    line-height: 30px;
     text-align: center;
+    height: 300px;
 }
 .fleche1 {
     width: 300px;
@@ -55,6 +58,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 .illustinfographiste {
     width: 300px;
@@ -62,8 +66,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
-
+.tailleimg{
+    width: 250px;
+}
     
     
 /* style colonne reconversions */
@@ -90,7 +97,7 @@ h2 {
 } 
 
 .reconversion {
-    width: 500px;
+    width: 450px;
     height: 40px;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
@@ -101,6 +108,7 @@ h2 {
     align-items: center;
     justify-content: center;
     border-radius: 20px 20px 0px 0px;
+    margin: 0 auto;
 }
 
 .developpeurweb {
@@ -133,21 +141,23 @@ h2 {
 }
    
 .txtreconversion{
-    width: 300px;
+    width: 280px;
     color: #000000;
     text-align: left;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
     /* padding: 20px; */
 }
 
 .illustdeveloppeur{
     width: 200px;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 10px;
 }
 
- 
+.petiteimage{
+    width: 200px;
+}
     
 /* style bloc competences */
 .conteneurcompetences {
@@ -156,13 +166,13 @@ h2 {
     background-color: #FBF1EC;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     }
 .maincompetences {
     width: 800px;
     height: 700px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
 }
     
 /* style section3 */   
@@ -189,24 +199,25 @@ h2 {
 .blocacquisition {
     /* padding: 5px 0px 0px 0px; */
     width: 300px;
-    height: 160px;
+    height: 190px;
     background-color: #FC721A;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px 10px 10px 10px;
-    /* margin: 10px 10px 10px 10px ; */
+    padding: 10px 0px 0px 0px ;
 }
 .titreacquisition{
     width: 300px;
-    height: 15px ;
+    /* height: 15px ; */
     color: #ffffff;
     text-align: center;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
     letter-spacing: 1.5px;
+    padding: 10px 0px 0px 0px;
 }
 .txtacquisition{
     width: 250px;
@@ -215,7 +226,7 @@ h2 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 /* style section4 */   
@@ -230,6 +241,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 10px 10px 10px;
 }
 .txtcompetencesintro{
     width: 500px;
