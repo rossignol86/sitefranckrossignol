@@ -37,7 +37,6 @@ h2 {
 .competences {
     font-family: 'Orbitron', sans-serif; 
     font-size: 22px;
-    line-height: 30px;
     text-align: center;
     height: 300px;
 }
@@ -165,7 +164,7 @@ h2 {
 /* style bloc competences */
 .conteneurcompetences {
     width: 100%;
-    height: 780px;
+    height: 800px;
     background-color: #FBF1EC;
     display: flex;
     justify-content: center;
@@ -177,8 +176,6 @@ h2 {
     display: flex;
     /* justify-content: center; */
 }
-
-
 
 /* style section3 */   
 .section3 {
@@ -280,3 +277,70 @@ h2 {
 .logologiciels{
     width: 250px;
 }
+
+
+/* style bloc PORTFOLIO */
+.conteneurportfolio {
+    width: 100%;
+    height: 1420px;
+    background-color: #d8ecf8;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    }
+.mainportfolio {
+    width: 100%;
+    margin: 0 auto
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+/* style section3 */   
+.section5 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.fleche2 {
+    margin: 0 auto;
+} 
+.containercreations {
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 40px 0px
+  }
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 0px 0px;
+    gap: 20px;
+    width: 400px;
+    height: 600px;
+  }
+.containerimage {
+    width: 380px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+  }
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:top;
+    padding: 10px 0px 0px 0px;
+  }
+.txtcreations{
+    color: #000000;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0px 20px 0px 20px;
+}  
