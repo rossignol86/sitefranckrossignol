@@ -181,7 +181,16 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-}   
+}
+.titrecompetences{
+    height: 25px;
+    color: #000000;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    /* padding: 10px 0px 5px 0px; */
+} 
 .txtcompetences{
     width: 300px;
     color: #000000;
@@ -295,6 +304,10 @@ h2 {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+}
+.titrerealisation{
+    height: 25px;
+    padding: 0px 0px 10px 0px;
 }
 .fleche2 {
     margin: 0 auto;
