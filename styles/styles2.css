@@ -396,7 +396,7 @@ h2 {
     margin: 0 auto;
     padding: 40px 0px 20px 0px;
 }
-.entreprise {
+.entreprise, .stageentreprise {
     font-family: "Montserrat", sans-serif;
     height: 100%;
     font-size:20px;
